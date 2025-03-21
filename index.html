@@ -2,19 +2,27 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-<title>Hosting</title>
+    <title>Hosting</title>
+    <style>
+        .video-container {
+            max-width: 100%;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            max-width: 640px; 
+            height: 360px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
-<h1>This is a Headinggg</h1>
-<p>This is a paragraph.</p>
+    <h1>This is a Headinggg</h1>
+    <p>This is a paragraph.</p>
 
-<div class="video-container">
-        <video controls>
-     <iframe src="https://drive.google.com/file/d/18FZuQKgYX3Tzgz5KcFTMWdKvcOUYdVli/preview" width="640" height="360" allow="autoplay"></iframe>
-
-            Your browser does not support the video tag.
-        </video>
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/18FZuQKgYX3Tzgz5KcFTMWdKvcOUYdVli/preview" allow="autoplay"></iframe>
     </div>
 
 </body>
